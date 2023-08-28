@@ -1,0 +1,306 @@
+:root {
+    --while-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --primary-color: #EE4D2D;
+    --gold-star-color: #ffce3e;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.6rem;
+}
+
+h2 {
+    font-size: 2.3rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+.paragraph {
+    color: var(--text-color);
+    font-size: 1.6rem;
+}
+
+#tour-section {
+    position: relative;
+}
+
+.tour-background {
+    width: 100%;
+    height: 100vh;
+}
+
+.download-section {
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 8px;
+    transform: translateY(-50%);
+    border-radius: 8px;
+    text-align: center;
+    padding: 12px;
+    opacity: 0.6;
+}
+
+.download-title {
+    color: white;
+    margin-bottom: 12px;
+}
+
+.download-horizontal-line {
+    border-top: 1px solid white;
+}
+
+.download-desc {
+    color: white;
+    margin: 8px 0;
+}
+
+#tour-section .download-btn {
+    display: block;
+    text-decoration: none;
+    color: white;
+    line-height: 1.0;
+    background-color: green;
+    padding: 8px 0;
+    width: 350px;
+}
+
+.take-tour-btn {
+    display: flex;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    right: 8px;
+    transform: translateY(-50%);
+    border-radius: 8px;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    color: white;
+    line-height: 1.0;
+    align-items: center;
+}
+
+.take-tour-btn-icon {
+    margin-left: 2px;
+    color: white;
+}
+
+.app-desc-section { 
+    padding: 20px 8px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.app-desc-content {
+    margin-top: 8px;
+    flex: 0.9;
+}
+
+.app-desc-heading {
+    color: black;
+    text-transform: capitalize;
+    margin-bottom: 12px;
+}
+
+.app-desc-sub-heading {
+    color: green;
+    margin-bottom: 12px;
+}
+
+.app-desc-text .highlight {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+#the-app .download-btn {
+    display: flex;
+    background-color: rgb(226, 226, 226);
+    color: black;
+    align-items: center;
+    text-decoration: none;
+    width: fit-content;
+    padding: 4px 16px;
+    margin: 20px 0;
+}
+
+#the-app .download-btn-icon {
+    font-size: 1.3rem;
+    margin-right: 4px;
+    color: black;
+}
+
+.app-desc-platforms .android {
+    color: green;
+}
+
+.app-desc-platforms .apple {
+    color: black;
+}
+
+.app-desc-platforms .windows {
+    color: blue;
+}
+
+#app-clarity {
+    background-color: rgb(240, 240, 240);
+}
+
+#app-clarity .app-desc-sub-heading {
+    color: red;
+    margin-bottom: 12px;
+}
+
+#features {
+    text-align: center;
+    background-color: rgb(82, 82, 82);
+    color: white;
+    padding: 40px 8px;
+}
+
+#features .sub-heading {
+    margin: 12px 0 32px 0;
+}
+
+#features .features-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#features .feature-item {
+    flex-basis: 25%;
+    height: 120px;
+}
+
+#features .feature-item i {
+    font-size: 40px;
+}
+
+#pricing {
+    background-color: white;
+    text-align: center;
+    padding: 40px 8px;
+    margin-bottom: 20px;
+}
+
+#pricing .sub-heading {
+    margin: 12px 0 32px 0;
+}
+
+.pricing-options {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pricing-list {
+    flex: 1;
+    color: black;
+    font-size: 1.6rem;
+    box-shadow: 0 0 5px 0 rgb(187, 187, 187);
+}
+
+.pricing-list li {
+    border-color: rgb(219, 219, 219);
+    border-style: solid;
+    border-width: 0 1px 1px 1px;
+}
+
+.pricing-list li:first-child {
+    color: white;
+    font-size: 1.7rem;
+    padding: 20px 0;
+    border: none;
+}
+
+.pricing-list li:not(:first-child) {
+    padding: 12px 0;
+}
+
+.pricing-list:first-child li:first-child {
+    background-color: rgb(82, 82, 82);
+}
+
+.pricing-list:last-child li:first-child {
+    background-color: red;
+}
+
+.pricing-list li:last-child {
+    background-color: rgb(238, 238, 238);
+    border: none;
+}
+
+.pricing-list li span {
+    font-weight: 700;
+}
+
+.pricing-list .price {
+    font-size: 2.2rem;
+    color: gray;
+}
+
+.pricing-list .download-btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: baseline;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    padding: 4px 20px;
+}
+
+.pricing-list .download-btn-icon {
+    margin-right: 4px;
+}
+
+#footer {
+    padding: 32px 16px;
+    text-align: center;
+    background-color: rgb(238, 238, 238);
+}
+
+#footer .social-list {
+    font-size: 1.6rem;
+}
+
+#footer .social-list a {
+    color: rgba(0, 0, 0, .6);
+    text-decoration: none;
+}
+
+#footer .copyright {
+    font-size: 1.6rem;
+    margin-top: 15px;
+    color: rgba(0, 0, 0, .6);
+}
+
+#footer .copyright a {
+    color: rgba(0, 0, 0, .6);
+}
