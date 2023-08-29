@@ -80,13 +80,23 @@ h4 {
 }
 
 #tour-section .download-btn {
-    display: block;
+    display: flex;
     text-decoration: none;
     color: white;
     line-height: 1.0;
     background-color: green;
     padding: 8px 0;
     width: 350px;
+    justify-content: center;
+    align-items: center;
+}
+
+#tour-section .download-btn.mobile {
+    display: none;
+}
+
+#tour-section .download-btn i { 
+    margin-left: 4px;
 }
 
 .take-tour-btn {
@@ -116,7 +126,6 @@ h4 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* align-items: center; */
 }
 
 .app-desc-content {
@@ -147,8 +156,12 @@ h4 {
     align-items: center;
     text-decoration: none;
     width: fit-content;
-    padding: 4px 16px;
+    padding: 4px 16px;  
     margin: 20px 0;
+}
+
+#the-app .download-btn.mobile {
+    display: none;
 }
 
 #the-app .download-btn-icon {
@@ -218,6 +231,7 @@ h4 {
 .pricing-options {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .pricing-list {
@@ -225,6 +239,7 @@ h4 {
     color: black;
     font-size: 1.6rem;
     box-shadow: 0 0 5px 0 rgb(187, 187, 187);
+    min-width: 250px;
 }
 
 .pricing-list li {
