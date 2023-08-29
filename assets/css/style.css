@@ -1,9 +1,5 @@
 :root {
-    --while-color: #fff;
-    --black-color: #000;
     --text-color: #333;
-    --primary-color: #EE4D2D;
-    --gold-star-color: #ffce3e;
 }
 
 * {
@@ -231,11 +227,11 @@ h4 {
 .pricing-options {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .pricing-list {
-    flex: 1;
+    flex-basis: 49.6%;
     color: black;
     font-size: 1.6rem;
     box-shadow: 0 0 5px 0 rgb(187, 187, 187);

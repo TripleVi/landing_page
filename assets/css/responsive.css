@@ -50,4 +50,12 @@
     .app-desc-text {
         margin-bottom: 16px;
     }
+
+    .pricing-options {
+        justify-content: center;
+    }
+
+    .pricing-list {
+        flex-basis: 100%;
+    }
 }
